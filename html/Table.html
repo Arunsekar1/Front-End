@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <table border="">
+      
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>age</th>
+                <td rowspan="6">leave</td>
+            </tr>
+         
+            <tr>
+                <td>One</td>
+                <td>Surya</td>
+                <td>12</td>
+            </tr> 
+             <tr>
+                <td>One</td>
+                <td>Surya</td>
+                <td>12</td>
+            </tr> 
+        <tr>
+                <td>One</td>
+                <td>Surya</td>
+                <td>12</td>
+            </tr>
+                <td>One</td>
+                <td>Surya</td>
+                <td>12</td>
+            </tr>
+        <tr>
+                <td>One</td>
+                <td>Surya</td>
+                <td>12</td>
+            </tr>
+        <tr>
+            <td colspan="4">welcome</td>
+        </tr>
+    </table>
+    
+
+    <br> -->
+
+
+    <!-- <h4>activity1</h4>
+
+    <table border="">
+        <tr>
+            <td>column1</td>
+            <td>column2</td>
+            <td>column3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Row1 Cell 1</td>
+            <td>Row1 Cell 2</td>
+            <td>Row1 Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row2 Cell 2</td>
+            <td>Row2 Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: left;">Row3 Cell 1</td>
+        </tr>
+    </table> -->
+
+    <!-- <h4>activity2</h4>
+
+    <table border="">
+        <tr>
+            <td></td>
+            <td></td>
+            <td colspan="3">Morning</td>
+            <td>lunch</td>
+            <td colspan="4">afternoon</td>
+            <td colspan="3">evening</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>9-10am</td>
+            <td>10-11am</td>
+            <td>11-12am</td>
+            <td>1-2pm</td>
+            <td>2-3pm</td>
+            <td>3-4pm</td>
+            <td>4-5pm</td>
+            <td>5-6pm</td>
+            <td>6-7pm</td>
+            <td>7-8pm</td>
+            <td>8-9pm</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Work</td>
+            <td>Monday</td>
+            <td colspan="3">Development Meating</td>
+            <td></td>
+            <td colspan="3">client Meeting</td>
+            <td>commute</td>
+            <td colspan="3">Free</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="3">in office</td>
+            <td></td>
+            <td colspan="7">in office</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Lecture</td>
+            <td>Wednesday</td>
+            <td colspan="3">csc205</td>
+            <td></td>
+            <td colspan="7">Preparation</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td colspan="3">MAM200</td>
+            <td></td>
+            <td colspan="3">Tutonals for MAM200</td>
+            <td colspan="4">Free</td>
+        </tr>
+        <tr>
+            <td>Research</td>
+            <td>Friday</td>
+            <td colspan="3">Research</td>
+            <td></td>
+            <td colspan="7">Research</td>
+        </tr>
+    </table> -->
+
+    <h4>Nested Tables</h4>
+
+    <table border="">
+        <thead>
+            <tr>
+                <th>Header Column 1</th>
+                <th>Header Column 2</th>
+                <th>Header Column 3</th>
+                <th>Header Column 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 2 - Item1</td>
+                <td>Row 2 - Item2</td>
+                <th rowspan="2">Row 2: Nested Table 1
+                    <table border="">
+                        <tr>
+                            <td>Row 1 Header</th>
+                            <td>Item1</td>
+                        </tr>
+                        <tr>
+                            <td>Row 2 Header</th>
+                            <td>Item1</td>
+                        </tr>
+                        <tr>
+                            <td>Row 3 Header</th>
+                            <td>Item1</td>
+                        </tr>
+                    </table>
+                </th>
+                <td>Row 2 - Item4 A second line</td>
+            </tr>
+            <tr>
+                <th>Row 3: Nested Table 2
+                    <table border="">
+                        <tr>
+                            <td>Row 1 Header</th>
+                            <td>Item1</td>
+                        </tr>
+                        <tr>
+                            <td>Row 2 Header</th>
+                            <td>Item1</td>
+                        </tr>
+                    </table>
+                </th>
+                <td>Row 3 - Item2</td>
+                <td rowspan="2">Row 3 - Item3</td>
+            </tr>
+            <tr>
+                <td>Row 4 - Item1</td>
+                <td>Row 4 - Item2</td>
+                <td>Row 4 - Item3</td>
+            </tr>
+            <tr>
+                <td colspan="4">Row 5 - Last row of outer table</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- <h4>Nested Table1</h4>
+
+    <table border="1px" style="border-spacing: 0;">
+        <thead>
+            <tr>
+                <th>
+                    Table Heading
+                </th>
+                <th>
+                    Table Heading
+                </th>
+                <th>
+                    Table Heading
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+            </tr>
+            <tr>
+                <tr>
+                    <td>Table Data</td>
+                    <td>Table Data
+                        <table border="1px" style="border-spacing: 0;">
+                            <thead>
+                                <tr>
+                                    <th>Table Heading</th>
+                                    <th>Table Heading</th>
+                                    <th>Table Heading</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Table Heading</td>
+                                    <td>Table Heading</td>
+                                    <td>Table Heading</td>
+                                </tr>
+                                <tr>
+                                    <td>Table Heading</td>
+                                    <td>Table Heading</td>
+                                    <td>Table Heading</td>
+                                </tr>
+                                <tr>
+                                    <td>Table Heading</td>
+                                    <td>Table Heading</td>
+                                    <td>Table Heading</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td>Table Data</td>
+                </tr>
+            </tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+            </tr>
+        </tbody>
+    </table> -->
+
+</body>
+</html>
+<style>
+    tr th,tr td{
+        width: 100px;
+        height: 50px;
+        padding: 5px;
+        text-align: center;
+        vertical-align: bottom;
+    }
+    table{
+        border-spacing: 2px;
+    }
+
+    /* Nested Tables */
+
+    /* tr td{
+        width: 100px;
+        height: 20px;
+        padding: 10px;
+        text-align: center;
+        vertical-align:auto
+    }
+    table{
+        border-spacing: 2px;
+    } */
+
+
+
+</style>
