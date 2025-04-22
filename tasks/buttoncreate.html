@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        nav{
+            background-color: red;
+            border-radius: 10px;
+            border: 1px red;
+            padding: 20px;
+            text-align: center;
+        }
+        .button{
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .button:hover{
+            color:red;
+            background-color: green;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color:red;
+            background-color: green;
+        }
+        form{
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 20px;
+            padding: 20px;
+            background-color: rgba(102,205,0, 0.5);
+        }
+        .forms{
+            align-items: center;
+    justify-content: center;
+    display: flex;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <button><a href="#">Home</a></button>
+        <button><a href="#">About</a></button>
+        <button><a href="#">Contact</a></button>
+    </nav>
+    <br>
+    <div align="center">
+    <button class="button">Click Me!</button>
+<br><br>
+</div>
+<br><br>
+<div class="forms">
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your Name"><br><br>
+        <label for="email" >Email:</label>
+        <input type="email" id="email" placeholder="Entert your Email"><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="g">Male
+        <input type="radio" name="g">Female <br><br>
+        <div align="center">
+        <button class="button">Submit</button>
+    </div>
+    </form>
+</div>
+</body>
+</html>
