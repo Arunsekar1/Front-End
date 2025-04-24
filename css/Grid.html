@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="home">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio, quos eius distinctio consequuntur enim culpa quisquam soluta obcaecati, atque adipisci doloribus quidem. Eveniet inventore doloremque quisquam placeat deleniti tempora accusamus ad nisi? Quisquam at laborum nihil minus eveniet illum dolorem deleniti inventore sint, repellat, a deserunt dolore voluptatum earum incidunt reiciendis hic excepturi perspiciatis voluptas architecto delectus sed nobis voluptate. Ea facilis quod modi perspiciatis exercitationem omnis nobis nulla voluptatum dolorem maiores voluptatem excepturi labore ad, ipsam illo pariatur, saepe eos ipsum corporis odio sed quis dolorum! Rem id unde ullam praesentium incidunt cupiditate temporibus dolorem quidem itaque fugiat?</p>
+
+</body>
+</html>
+<style>
+    p{
+        column-count: 3;
+        column-gap: 40px;
+        column-rule-width: 10px;
+        column-rule-style: solid;
+        column-rule-color: red;
+        column-rule: 20px solid green;
+    }
+    .home{
+        border: 2px solid green;
+        display: flex;
+        padding: 10px;
+        background-color: yellow;
+    }
+    .child{
+        width: 400px;
+        height: 50px;
+        border: 2px solid red;
+    }
+
+    @media screen and (max-width:400px) {
+        body{
+            background-color: lightblue;
+
+        }
+        p{
+            display: none;
+        }
+        
+    }
+</style>
