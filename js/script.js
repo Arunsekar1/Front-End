@@ -119,6 +119,139 @@
 // }
 
 
+// let a =20;
+
+ 
+// switch(a){
+//     case 0:
+//         console.log("Zero...");
+//         break;
+//     case 1:
+//         console.log("One..");
+//         break;
+
+//     case 2:
+//         console.log("Two...");
+//         break;
+//     case 3:
+//         console.log("Threee");
+//         break;
+
+//     default :
+//         console.error("Error...");
+        
+//             break;
+// }
+
+
+
+
+// let a = [1,2,3,4,5]
+// console.log(a);
+
+// console.log(a.length);
+// console.log(a[0]);
+// // console.log(a.concat(a));
+
+// a[5]="bharath"
+
+// a.push('ArunKumar')
+// a.push(90)
+
+// a.pop()
+
+// a.unshift('Idm')
+// a.unshift('Idm1')
+// a.unshift('Idm2')
+
+// a.shift()
+
+// a.splice(3,2,"KIA","BMW")
+
+
+// console.log(a)
+
+
+// let Mul = [
+//     [1,2,3,4],[5,6,7,8,[1,2,3,4,5,[6,7,8,9,0,[11,13,45,[90]]]]]
+// ]
+
+
+// const Ar = [
+//     1,2,3,4
+// ]
+
+// Ar.push(88)
+
+// console.log(Ar);
+
+
+
+
+// let obj ={
+//     Color:"red",
+//     bgc:'yellow',
+//     brother:{
+//         Name :"Karthick"
+//     }
+// }
+
+// console.log(obj.brother.Name);
+
+let ArrObj = [
+    {Name:"Welcome..1"},
+    {Name:"Welcome..2"},
+    {Name:"Welcome..3"},
+    {Name:"Welcome..4"},
+    {Name:"Welcome..5"},
+    {Name:"Welcome..6"},
+]
+// console.log(ArrObj);
+
+
+
+// for(let i=0;i<10;i++){
+//     console.log(i);    
+// }
+
+// let a =10;
+
+// while(a<20){
+//     console.log(a);
+//     if(a==15){
+//         break
+//     }
+// a++    
+// }
+
+// do{
+//     console.log(a);
+//     a++;
+    
+// }while(a<20)
+
+
+// for(let i=0;i<ArrObj.length;i++){
+//     console.log(ArrObj[i].Name);
+    
+// }
+
+
+// for(let b in ArrObj){
+//     console.log(b.Name);
+    
+// }
+
+// ArrObj.forEach((i)=>{
+//     console.log(i);
+    
+// })
+
+ArrObj.map((s)=>{
+    console.log(s);
+    
+})
+
 
 
 
