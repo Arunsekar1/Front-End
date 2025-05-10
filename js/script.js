@@ -172,10 +172,11 @@
 // console.log(a)
 
 
-// let Mul = [
-//     [1,2,3,4],[5,6,7,8,[1,2,3,4,5,[6,7,8,9,0,[11,13,45,[90]]]]]
-// ]
+let Mul = [
+    [1,2,3,4],[5,6,7,8,[1,2,3,4,5,[6,7,8,9,0,[11,13,45,[90]]]]]
+]
 
+console.log(Mul[1][4][5][5][3])
 
 // const Ar = [
 //     1,2,3,4
@@ -198,14 +199,14 @@
 
 // console.log(obj.brother.Name);
 
-let ArrObj = [
-    {Name:"Welcome..1"},
-    {Name:"Welcome..2"},
-    {Name:"Welcome..3"},
-    {Name:"Welcome..4"},
-    {Name:"Welcome..5"},
-    {Name:"Welcome..6"},
-]
+// let ArrObj = [
+//     {Name:"Welcome..1"},
+//     {Name:"Welcome..2"},
+//     {Name:"Welcome..3"},
+//     {Name:"Welcome..4"},
+//     {Name:"Welcome..5"},
+//     {Name:"Welcome..6"},
+// ]
 // console.log(ArrObj);
 
 
@@ -247,10 +248,10 @@ let ArrObj = [
     
 // })
 
-ArrObj.map((s)=>{
-    console.log(s);
+// ArrObj.map((s)=>{
+//     console.log(s);
     
-})
+// })
 
 
 
