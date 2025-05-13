@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form id="form">
+        <input type="text" id="user" placeholder="Name">
+        <input type="password" id="pass" placeholder="pass">
+        <input type="submit">
+    </form>
+
+
+    <p id="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste aspernatur porro voluptas ipsa sapiente accusamus nobis odit ullam beatae et aut quaerat saepe illum ea, cumque placeat qui corporis, quas aliquid. Animi qui quam ratione facere quibusdam accusantium quae error magnam! Cumque voluptatibus ab, suscipit qui recusandae quasi ex, numquam atque repellendus necessitatibus ipsa consectetur aliquid facere assumenda est sapiente blanditiis? Libero, vero illum. Unde, sint? Quos sint impedit ipsam beatae magni quibusdam esse dignissimos consequuntur possimus perspiciatis? Quaerat nesciunt adipisci, doloribus odio dolores laboriosam suscipit nulla voluptatem eos ratione voluptatibus eaque quidem atque odit quod eligendi aut saepe aliquam. Soluta quidem ipsam harum mollitia repudiandae voluptate at nobis ipsa autem, dolore laboriosam pariatur provident beatae similique sequi minus magnam ullam eaque neque quis voluptates eveniet. Nulla ducimus aspernatur natus pariatur adipisci ipsum neque minima odio, voluptatum assumenda voluptatem voluptatibus itaque! Sed culpa dolor nulla eos aspernatur dolorum necessitatibus inventore illo rerum eveniet nihil veritatis mollitia non rem eum dicta atque nemo, delectus iste consectetur fugiat illum adipisci? Dolorem, qui. Alias in officia nostrum commodi ut placeat reprehenderit aperiam assumenda laudantium hic quaerat expedita iusto consequatur non distinctio recusandae ea, nisi quo necessitatibus, sapiente voluptatum maxime. Eveniet magnam aut neque, at rerum harum rem animi tempora nobis id doloribus suscipit hic sequi minima consequuntur reprehenderit atque, dicta tenetur dolor quidem? Sit nihil ipsam debitis cupiditate amet reprehenderit architecto fuga dignissimos et, modi quidem impedit? Labore possimus voluptates velit facilis suscipit iure aut nulla dolor optio molestias at earum obcaecati doloribus sapiente aliquid cumque, sit repudiandae dignissimos accusantium, libero nisi ab? Quae, repellat libero, fugiat obcaecati explicabo eaque quidem asperiores quos ullam tempora repellendus ex? Optio voluptatibus excepturi eligendi nesciunt iure reprehenderit totam neque repellat accusantium explicabo veniam, et voluptates rem soluta quos distinctio at consectetur expedita a ullam quo dolor!</p>
+
+    <style>
+        #p{
+            display: none;
+        }
+    </style>
+    <script>
+        let form = document.getElementById('form')
+        let user = document.getElementById('user')
+        let pass = document.getElementById('pass')
+        let p = document.getElementById('p')
+
+
+ let a = "surya"
+ let b = 1234
+
+        form.addEventListener('submit',function(e){
+            e.preventDefault()
+
+            if(user.value==''){
+                // alert("Warning...")
+                user.style.border="2px solid red"
+            }
+            else if(pass.value===''){
+                a0lert('Pass Error..')
+            }
+            else if((user.value=="surya")&&(pass.value==1234)){
+                p.style.display='block'
+             }
+            else{
+                console.log("User "+user.value);
+                console.log("Pass "+pass.value);
+                
+            }
+            form.reset()
+        })
+    </script>
+
+</body>
+</html>

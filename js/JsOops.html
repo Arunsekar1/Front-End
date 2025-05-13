@@ -13,6 +13,9 @@
 
 <script>
 
+
+// Abstraction
+
     // let obj ={
     //     Name:"karthick",
     //     Age:12,
@@ -22,6 +25,12 @@
     //     }
         
     // }
+
+
+
+
+// Constructor
+
 
     // class Surya{
     //     constructor(){
@@ -33,65 +42,79 @@
 
     // y.Name
 
-    function A(){
-        name:"sasi";
-        age:12;
+
+
+
+// Prototype
+ 
+
+//     function A(){
+//         name:"sasi";
+//         age:12;
 
     
+//     }
+
+//     // A.city ="erode"
+
+//     A.prototype.city="Erode"
+
+//     const obj = new A();
+
+//    console.log(obj.city);
+
+
+
+
+// Inheritance
+
+
+
+    class Erode{
+        add(){
+            console.log("welcome to the world");
+        }
+    }
+    
+
+    class Cbe extends Erode{
+
+    }
+    const a = new Cbe()
+    a.add()
+
+
+// Encapsulation
+
+
+    class One{
+        add(){
+            console.log("One...");
+            
+        }
     }
 
-    // A.city ="erode"
-
-    A.prototype.city="Erode"
-
-    const obj = new A();
-
-   console.log(obj.city);
-
-
-    // class Erode{
-    //     add(){
-    //         console.log("welcome to the world");
-    //     }
-    // }
-    
-
-    // class Cbe extends Erode{
-
-    // }
-    // const a = new Cbe()
-    // a.add()
-
-
-
-    // class One{
-    //     add(){
-    //         console.log("One...");
+    class Two extends One{
+        add(){
+            console.log("two..");
             
-    //     }
-    // }
+        }
+    }
 
-    // class Two extends One{
-    //     add(){
-    //         console.log("two..");
+    class Three extends Two{
+        add(){
+            console.log("Three...");
             
-    //     }
-    // }
+        }
+    }
 
-    // class Three extends Two{
-    //     add(){
-    //         console.log("Three...");
-            
-    //     }
-    // }
+    const x = new One()
+    const y = new Two()
+    const z = new Three()
 
-    // const x = new One()
-    // const y = new Two()
-    // const z = new Three()
-
-    // x.add()
-    // y.add()
-    // z.add()
+    x.add()
+    y.add()
+    z.add()
 
 
     // try{
